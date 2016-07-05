@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fb</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="wrapper">
+<nav class="navbar">
+  <div id="login-form">
+     <%= form_for :admission do |f| %>
+     <%= f.label :username %><br>
+     <%= f.text_field :username %>
+  <%= f.label :password %><br>
+     <%= f.password_field :password %>
+     <%= link_to "Forgot password" %>
+     <% end %>
+</div>
+</nav>
+ <div class="container">
+ <div class="container-left">
+  <h1>Hai, Rails</h1>
+</div>
+ <div class="container-right">
+   <div id="reg-form">
+<h1>Create an account free</h1>
+   <p> <%=form_for :register do |f| %>
+    <%= f.text_field :username, placeholder: "Firstname" %>
+    <%= f.text_field :Surename, placeholder: "Surename" %><br>
+    <%= f.text_field :Mobilenumber, placeholder: "Mobilenumber"%><br>
+    <%= f.text_field :confirmmobilenumber, placeholder: "confirmmobilenumber"%><br>
+    <%= f.text_field :password, placeholder: "New password" %><br>
+    <%= f.submit "Create account" %>
+  </p>  <% end %>
+</div>
+</div>
+</div>
+</div>
+<%= yield %>
+
+</body>
+</html>

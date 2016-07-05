@@ -1,0 +1,6 @@
+<%= form_for :admission do |f| %>
+<strong>Username:</strong>
+<p><%=@admission.username%>
+<% end %>
+</p>
+

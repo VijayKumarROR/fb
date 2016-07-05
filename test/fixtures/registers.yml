@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  firstname: MyString
+  surename: MyString
+  mobilenumber: 1
+  confirmmobilenumber: 1
+  newpassword: 1
+
+two:
+  firstname: MyString
+  surename: MyString
+  mobilenumber: 1
+  confirmmobilenumber: 1
+  newpassword: 1

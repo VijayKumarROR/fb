@@ -1,0 +1,45 @@
+.wrapper
+{
+width: 800px;
+height: 600px;
+margin: auto;
+border: thin ridge black;
+}
+.navbar
+{
+margin:0px;
+height: 140px;
+background-color:black;
+}
+#login-form
+{
+width:100px;
+margin-left:550px;
+}
+.container
+{
+height:460px;
+width:800px;
+}
+.container-left
+{
+margin-top:-20px;
+float:left;
+width:300px;
+height:460px;
+border-right: thin ridge black;
+}
+h1
+{
+margin-left:60px;
+}
+#reg-form
+{
+height: 440px;
+background-color:red;
+border:left:thin ridge black;
+}
+h1
+{
+margin-left: 10px;
+}
